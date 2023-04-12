@@ -1,4 +1,10 @@
-# Semver Release Github Action ![](https://github.com/K-Phoen/semver-release-action/workflows/CI/badge.svg)
+# Semver Release Github Action ![](https://github.com/brunopadz/semver-release-action/workflows/CI/badge.svg)
+
+## Before you begin
+
+This project is a fork from [K-Phoen/semver-release-action](https://github.com/brunopadz/semver-release-action). Since the original author seems busy to keep the project running, this fork is intended to keep the project updated.
+
+---
 
 Automatically create [SemVer](https://semver.org/) compliant releases based on
 PR labels.
