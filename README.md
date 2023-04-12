@@ -61,7 +61,7 @@ jobs:
     
     steps:
       - name: Tag
-        uses: K-Phoen/semver-release-action@master
+        uses: brunopadz/semver-release-action@main
         with:
           release_branch: master
         env:

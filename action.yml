@@ -1,6 +1,6 @@
 name: 'Semantic Versioning Releaser'
-description: 'Automatically create Semver compliant tags or releases based on PR labels'
-author: 'Kévin Gomez'
+description: 'Automatically create Semantiv Versioning compliant tags or releases based on PR labels'
+author: 'Bruno Padilha'
 
 branding:
   icon: 'tag'
