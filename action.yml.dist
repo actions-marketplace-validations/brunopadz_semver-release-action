@@ -1,10 +1,10 @@
-name: 'Semver Release'
+name: 'Semantic Versioning Releaser'
 description: 'Automatically create Semver compliant tags or releases based on PR labels'
 author: 'Kévin Gomez'
 
 branding:
   icon: 'tag'
-  color: 'green'
+  color: 'blue'
 
 inputs:
   release_branch:
@@ -32,7 +32,7 @@ outputs:
 
 runs:
   using: 'docker'
-  image: 'docker://kphoen/semver-release-action:**VERSION_PLACEHOLDER**'
+  image: 'docker://brunopadz/semver-release-action:v1.3.3'
   args:
     - ${{ inputs.release_branch }}
     - ${{ inputs.release_strategy }}
